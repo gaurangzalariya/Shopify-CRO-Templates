@@ -7,29 +7,27 @@ const productData = {
     price: 129.99,
     currency: "USD",
     images: [
-        "https://via.placeholder.com/600x600?text=Main+Shoe+Image",
-        "https://via.placeholder.com/600x600?text=Side+View",
-        "https://via.placeholder.com/600x600?text=Top+View",
-        "https://via.placeholder.com/600x600?text=Lifestyle",
-        "https://via.placeholder.com/600x600?text=Outdoor",
-        "https://via.placeholder.com/600x600?text=Pair",
-        "https://via.placeholder.com/600x600?text=Closeup",
-        "https://via.placeholder.com/600x600?text=On+Foot",
+        "https://picsum.photos/id/1/600",
+        "https://picsum.photos/id/2/600",
+        "https://picsum.photos/id/3/600",
+        "https://picsum.photos/id/4/600",
+        "https://picsum.photos/id/5/600",
+        "https://picsum.photos/id/6/600",
+        "https://picsum.photos/id/7/600",
+        "https://picsum.photos/id/8/600",
     ],
     colorSwatches: [
         [
-            { src: "https://via.placeholder.com/100x100?text=Black%2FWhite", label: "Black/White" },
-            { src: "https://via.placeholder.com/100x100?text=Blue%2FWhite", label: "Blue/White" },
-            { src: "https://via.placeholder.com/100x100?text=Red%2FWhite", label: "Red/White" },
-            { src: "https://via.placeholder.com/100x100?text=Grey%2FOrange", label: "Grey/Orange" },
-            { src: "https://via.placeholder.com/100x100?text=White%2FGreen", label: "White/Green" },
+            { src: "https://picsum.photos/id/1/600", label: "Black/White" },
+            { src: "https://picsum.photos/id/2/600", label: "Blue/White" },
+            { src: "https://picsum.photos/id/3/600", label: "Red/White" },
+            { src: "https://picsum.photos/id/4/600", label: "Grey/Orange" },
         ],
         [
-            { src: "https://via.placeholder.com/100x100?text=Pink%2FWhite", label: "Pink/White" },
-            { src: "https://via.placeholder.com/100x100?text=Yellow%2FBlack", label: "Yellow/Black" },
-            { src: "https://via.placeholder.com/100x100?text=Navy%2FWhite", label: "Navy/White" },
-            { src: "https://via.placeholder.com/100x100?text=Black%2FRed", label: "Black/Red" },
-            { src: "https://via.placeholder.com/100x100?text=Blue%2FYellow", label: "Blue/Yellow" },
+            { src: "https://picsum.photos/id/5/600", label: "Pink/White" },
+            { src: "https://picsum.photos/id/6/600", label: "Yellow/Black" },
+            { src: "https://picsum.photos/id/7/600", label: "Navy/White" },
+            { src: "https://picsum.photos/id/8/600", label: "Black/Red" },
         ],
     ],
     sizes: [
@@ -126,17 +124,17 @@ const productData = {
     reviewCount: 2143,
     carouselProducts: [
         {
-            image: "https://via.placeholder.com/400x400?text=Blue+Shoe",
+            image: "https://picsum.photos/id/9/400",
             title: "AirFlex Runner Blue",
             price: "$129.99",
         },
         {
-            image: "https://via.placeholder.com/400x400?text=Red+Shoe",
+            image: "https://picsum.photos/id/10/400",
             title: "AirFlex Runner Red",
             price: "$129.99",
         },
         {
-            image: "https://via.placeholder.com/400x400?text=Grey+Shoe",
+            image: "https://picsum.photos/id/11/400",
             title: "AirFlex Runner Grey",
             price: "$129.99",
         },
@@ -712,7 +710,7 @@ export default function ProductShowcase() {
                 </div>
 
                 {/* RIGHT: Sticky Product Info & CTA */}
-                <div className="flex-1 lg:max-w-sm w-full">
+                <div className="flex-1 lg:max-w-lg w-full">
                     <div className="lg:sticky lg:top-8 flex flex-col gap-6 border border-gray-100 rounded-xl p-6 shadow-sm">
                         <div>
                             <div className="text-lg font-semibold text-gray-700 mb-2">
