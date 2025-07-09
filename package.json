@@ -1,0 +1,34 @@
+{
+  "name": "shopify-tailwind-showcase",
+  "version": "1.0.0",
+  "description": "A showcase of high-converting Shopify sections and templates built with Tailwind CSS and CRO best practices.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "shopify",
+    "tailwindcss",
+    "nextjs",
+    "cros",
+    "templates"
+  ],
+  "author": "Gaurang Zalariya",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "typescript": "latest"
+  }
+}
