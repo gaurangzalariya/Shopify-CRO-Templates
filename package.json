@@ -4,7 +4,7 @@
   "description": "A showcase of high-converting Shopify sections and templates built with Tailwind CSS and CRO best practices.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."

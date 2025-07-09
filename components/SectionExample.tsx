@@ -2,7 +2,7 @@ import React from 'react';
 
 const SectionExample: React.FC = () => {
     return (
-        <section className="bg-white p-6 rounded-lg shadow-md">
+        <section className="text-center bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-4">Shopify Section Example</h2>
             <p className="text-gray-700 mb-4">
                 This is an example of a Shopify section styled with Tailwind CSS. 
